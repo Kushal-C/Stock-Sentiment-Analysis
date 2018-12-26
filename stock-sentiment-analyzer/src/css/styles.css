@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700');
+/*
+    .header-accent: allows for special font on headers
+    using flex box layout
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background: #F4F4F4;
+    justify-content: flex-start;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Nunito Sans';
+}
+
+.header-accent {
+    font-family: 'Roboto Mono';
+}
+
+
