@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+$font-stack: Nunito Sans,
+Sans Serif;
+$primary-color: #4A4A4A;
+$secondary-color: #9B9B9B;
+$background-color: #F4F4F4;
+$mat-green: #2ecc71;
+$mat-red: #e74c3c;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+    font-family: $font-stack;
+    color: $primary-color;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 50px;
+    background-color: $background-color;
+}
+
+.primary-text {
+    color: $primary-color;
+}
+
+.secondary-text {
+    color: $secondary-color;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    border-radius: 5px;
+    background: white;
+    margin: 28px;
+    height: 320px;
+    width: 270px;
+}
+
+.inline {
+    display: inline;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, .2);
+    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, .2);
+    /* Firefox 3.5 - 3.6 */
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .2);
+    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.navbar {
+    margin-top: -20px;
+}
+
+.icon {
+    max-width: 25px;
+}
